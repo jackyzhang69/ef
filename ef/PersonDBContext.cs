@@ -5,9 +5,14 @@ using System.Data.Entity;
 
 namespace ef
 {
-    public class PersonDBContext: DbContext
+    public class SPDBContext: DbContext
     {
-        public DbSet<Person> Persons { get; set; }
+        public SPDBContext() : base("SP")
+        {
+
+        }
+
+        public DbSet<Person> People { get; set; }
         public DbSet<Address> Addresses { get; set; }
     }
 }

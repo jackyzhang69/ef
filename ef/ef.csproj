@@ -53,10 +53,22 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="Application.cs" />
+    <Compile Include="BackgroundCheck.cs" />
+    <Compile Include="CanadaVisitHistory.cs" />
+    <Compile Include="Definition.cs" />
+    <Compile Include="Education.cs" />
+    <Compile Include="Employment.cs" />
+    <Compile Include="Language.cs" />
+    <Compile Include="LOA.cs" />
+    <Compile Include="Marriage.cs" />
+    <Compile Include="Passport.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonDBContext.cs" />
+    <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Residence.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
