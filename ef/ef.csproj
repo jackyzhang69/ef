@@ -56,12 +56,16 @@
     <Compile Include="Application.cs" />
     <Compile Include="BackgroundCheck.cs" />
     <Compile Include="CanadaVisitHistory.cs" />
+    <Compile Include="CICAddress.cs" />
     <Compile Include="Definition.cs" />
     <Compile Include="Education.cs" />
     <Compile Include="Employment.cs" />
+    <Compile Include="Family.cs" />
+    <Compile Include="Finance.cs" />
     <Compile Include="Language.cs" />
     <Compile Include="LOA.cs" />
     <Compile Include="Marriage.cs" />
+    <Compile Include="BackGroundDetails.cs" />
     <Compile Include="Passport.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="PersonDBContext.cs" />
@@ -69,6 +73,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Residence.cs" />
+    <Compile Include="Travel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

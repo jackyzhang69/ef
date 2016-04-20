@@ -12,6 +12,8 @@ namespace ef
         [Key]
         public int AddressId { get; set; }
         //TRV requirement starts here
+        public string Recipient { get; set; }
+        public string Host { get; set; }
         public string POBox { get; set; }
         public string AptUnit { get; set; }
         public string StreetNo { get; set; }

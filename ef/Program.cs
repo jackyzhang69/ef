@@ -13,7 +13,7 @@ namespace ef
             Person p1 = new Person();
             p1.FamilyName = "Zhang";
             p1.GivenName = "Jacky";
-            p1.DOB = new DateTime(1969, 02, 11);
+            p1.Dob = new DateTime(1969, 02, 11);
             Address ad1 = new Address();
             ad1.POBox = "1023";
             ad1.StreetNo = "1411";

@@ -44,7 +44,10 @@ namespace ef
         public CanadaVisitHistory VisitHistory { get; set; }
         public bool HasPostSecondary { get; set; }
         public Education PostSecondary { get; set; }
+        public List<Education> UnderPostSecondaryList { get; set;}  // if apply from China, should include Chinese Content
         public List<Employment> EmploymentList { get; set; }
     }
+
+    
 }
 
