@@ -40,10 +40,11 @@ namespace Applications
                 {
                     Console.WriteLine(r.GivenName);
                 }
-                var p = repository.FindById(12);
+                var p = repository.FindById(1);
                 Console.WriteLine(p.FamilyName+" "+p.GivenName);
+                
                 IAddressRepository<Address> addrepo = new AddressRepository(sdb);
-                var add = addrepo.FindById(12);
+                var add = addrepo.FindById(1);
                 Console.WriteLine(add.GetFullAddress());
                 Console.ReadKey();
             }
