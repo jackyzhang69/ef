@@ -10,6 +10,7 @@ namespace DBContextLayer
     public class SPDBContext : DbContext
     {
         public SPDBContext() : base("TRV")
+
         {
 
         }

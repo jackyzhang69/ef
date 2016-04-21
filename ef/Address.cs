@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,7 +10,7 @@ namespace TRVDomain
 {
     public class Address
     {
-        [Key]
+        [ForeignKey("Person")]
         public int AddressId { get; set; }
         //TRV requirement starts here
         public string Recipient { get; set; }
@@ -23,6 +24,7 @@ namespace TRVDomain
         public string Province { get; set; }
         public string Country { get; set; }
         public string PostCode { get; set; }
+        public virtual Person Person { get; set; }
         //TRV requirement ends here
 
 

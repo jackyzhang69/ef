@@ -25,14 +25,14 @@ namespace TRVDomain
 
         public Residence CurrentResidence { get; set; }
         public List<Residence> PreviousCountryResidence { get; set; }
-        public Marriage TheMarriage { get; set; }
-        public Language TheLanguage { get; set; }
-        public Passport ThePassport { get; set; }
-        public Address MailingAddress { get; set; }
-        public Address ResidentialAddress { get; set; }
-        public Phone PrimaryPhone { get; set; }
-        public Phone AlternatePhoen { get; set; }
-        public Phone Fax { get; set; }
+        public virtual Marriage TheMarriage { get; set; }
+        public virtual Language TheLanguage { get; set; }
+        public virtual Passport ThePassport { get; set; }
+        public virtual Address MailingAddress { get; set; }
+      //  public virtual Address ResidentialAddress { get; set; }
+        public virtual Phone PrimaryPhone { get; set; }
+        public virtual Phone AlternatePhoen { get; set; }
+        public virtual Phone Fax { get; set; }
         public string Email { get; set; }
         //TRV requirement ends here
     }

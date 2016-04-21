@@ -9,6 +9,7 @@ namespace TRVDomain
     public class Language
     {
         public int LanguageId { get; set; }
+
         // TRV requirement starts here
         public string NativeLanguage { get; set; }
         public string MostUsedLanguage { get; set; }
