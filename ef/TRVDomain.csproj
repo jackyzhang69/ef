@@ -55,6 +55,7 @@
     <Compile Include="Address.cs" />
     <Compile Include="Application.cs" />
     <Compile Include="BackgroundCheck.cs" />
+    <Compile Include="CanadaVisitDetails.cs" />
     <Compile Include="CanadaVisitHistory.cs" />
     <Compile Include="CICAddress.cs" />
     <Compile Include="Definition.cs" />
@@ -68,7 +69,6 @@
     <Compile Include="BackGroundDetails.cs" />
     <Compile Include="Passport.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="PersonDBContext.cs" />
     <Compile Include="Phone.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

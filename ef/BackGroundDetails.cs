@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ef
+namespace TRVDomain
 {
     // in IMM5257B1 shold declare following
     public class Event

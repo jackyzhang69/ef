@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef", "ef\ef.csproj", "{236E9A66-9674-4C7D-B7E2-8F117430E4C2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TRVDomain", "ef\TRVDomain.csproj", "{236E9A66-9674-4C7D-B7E2-8F117430E4C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Applications", "Applications\Applications.csproj", "{E296B4A1-54E5-4444-99E6-6A9BE2781CDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DBContextLayer", "SPContext\DBContextLayer.csproj", "{F6FF8403-B937-4818-81EA-B8778A059644}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{236E9A66-9674-4C7D-B7E2-8F117430E4C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{236E9A66-9674-4C7D-B7E2-8F117430E4C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{236E9A66-9674-4C7D-B7E2-8F117430E4C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E296B4A1-54E5-4444-99E6-6A9BE2781CDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E296B4A1-54E5-4444-99E6-6A9BE2781CDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E296B4A1-54E5-4444-99E6-6A9BE2781CDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E296B4A1-54E5-4444-99E6-6A9BE2781CDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6FF8403-B937-4818-81EA-B8778A059644}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6FF8403-B937-4818-81EA-B8778A059644}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6FF8403-B937-4818-81EA-B8778A059644}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6FF8403-B937-4818-81EA-B8778A059644}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,5 @@
 ﻿
-namespace TRVDomain
+namespace DBContextLayer
 {
     class Program
     {

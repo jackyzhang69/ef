@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ef
+namespace TRVDomain
 {
     public class Person
     {
@@ -47,7 +47,17 @@ namespace ef
         public List<Education> UnderPostSecondaryList { get; set;}  // if apply from China, should include Chinese Content
         public List<Employment> EmploymentList { get; set; }
     }
+    public class Visitor : Person
+    {
+        //Visitor requirement starts here
+        public CanadaVisitDetails VisitDetails { get; set; }
+        public CanadaVisitHistory VisitHistory { get; set; }
+        public bool HasPostSecondary { get; set; }
+        public Education PostSecondary { get; set; }
+        public List<Education> UnderPostSecondaryList { get; set; }  // if apply from China, should include Chinese Content
+        public List<Employment> EmploymentList { get; set; }
+    }
 
-    
+
 }
 

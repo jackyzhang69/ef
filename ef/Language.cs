@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ef
+namespace TRVDomain
 {
     public class Language
     {
